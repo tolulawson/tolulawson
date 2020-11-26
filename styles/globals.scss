@@ -1,16 +1,141 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url("https://p.typekit.net/p.css?s=1&k=wlc2vak&ht=tk&f=28000.28056.31643&a=1240669&app=typekit&e=css");
+
+@font-face {
+font-family:"paralucent";
+src:url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+font-family:"paralucent";
+src:url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
 }
 
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+html.dark {
+  --background: #001E43;
+  --text-gray: #CBCBCB;
+  --white: #fff;
+  --light-blue: #39BAF1;
+}
+
+html.light {
+
+}
+
+html {
+  background-color: var(--background);
+  font-family: paralucent,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-weight: 300;
+
+  body {
+    width: 100vw;
+
+    nav {
+      max-width: 1140px;
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      margin: auto;
+      padding: 1.7rem 0;
+      align-items: center;
+
+      .logo {
+        width: 20%;
+
+        img {
+          width: 100%;
+          max-width: 250px;
+          min-width: 180px;
+        }
+      }
+
+      .navigation {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--text-gray);
+        font-size: 1rem;
+
+        li {
+          &:not(:last-child) {
+            margin-right: min(3rem, 3vw);
+            color: var(--text-gray);
+
+            a {
+              text-decoration: none;
+              color: inherit;
+              transition: background-color .3s ease-out, background-size .3s ease-out, border-color .3s ease-out, color .3s ease-out;
+              background-image: linear-gradient(var(--light-blue), var(--light-blue));
+              background-position: 0 100%;
+              background-repeat: no-repeat;
+              background-size: 0 .1rem;
+
+              &:hover {
+                color: var(--white);
+                background-size: 100% .1rem;
+              }
+            }
+          }
+
+          button {
+            background: transparent;
+            border: none;
+            opacity: 0.7;
+            transition: opacity .2s ease-out;
+            cursor: pointer;
+
+            &:focus {
+              outline: none;
+            }
+
+            &:hover {
+              opacity: 1;
+            }
+
+            img {
+              width: 1rem;
+            }
+          }
+        }
+      }
+    }
+
+    .home-page {
+      .hero {
+        font-family: Paralucent Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: calc(2.375rem + 54*(100vw - 30rem)/800);
+        line-height: 1.1;
+        color: var(--white);
+      }
+    }
+  }
 }

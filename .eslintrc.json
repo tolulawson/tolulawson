@@ -21,6 +21,11 @@
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
       "jsx-quotes": ["error", "prefer-single"],
       "react/react-in-jsx-scope": "off",
-      "react/prop-types": [0]
+      "react/prop-types": [0],
+      "jsx-a11y/anchor-is-valid": [ "error", {
+        "components": [ "Link" ],
+        "specialLink": [ "hrefLeft", "hrefRight" ],
+        "aspects": [ "invalidHref", "preferButton" ]
+      }]
     }
 }
