@@ -1,23 +1,9 @@
-@import url("https://p.typekit.net/p.css?s=1&k=wlc2vak&ht=tk&f=28000.28056.31643&a=1240669&app=typekit&e=css");
-
-@font-face {font-family: "paralucent"; src: url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.eot"); src: url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.woff") format("woff"), url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.svg#ParalucentW00-ExtraLight") format("svg");
+@font-face {font-family: "paralucent"; src: url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.eot"); src: url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.woff2") format("woff2"), url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.woff") format("woff"), url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.ttf") format("truetype"), url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.svg") format("svg");
 font-display:auto;font-style:normal;font-weight:300;}
 
-@font-face {font-family: "paralucent"; src: url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.eot"); src: url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.woff") format("woff"), url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.svg#ParalucentW00-Light") format("svg"); font-display:auto;font-style:normal;font-weight:400;}
+@font-face {font-family: "paralucent"; src: url("../public/fonts/019787561c6d828d2329282a3b274358.eot"); src: url("../public/fonts/019787561c6d828d2329282a3b274358.woff2") format("woff2"), url("../public/fonts/019787561c6d828d2329282a3b274358.woff") format("woff"), url("../public/fonts/019787561c6d828d2329282a3b274358.ttf") format("truetype"), url("../public/fonts/019787561c6d828d2329282a3b274358.svg") format("svg"); font-display:auto;font-style:normal;font-weight:400;}
 
-@font-face {font-family: "Paralucent Text Pro"; src: url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.eot"); src: url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.woff") format("woff"), url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.svg#Paralucent Text Pro") format("svg"); font-display:auto;font-style:normal;font-weight:500;}
-
-// @font-face {
-// font-family:"paralucent";
-// src:url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
-// font-display:auto;font-style:normal;font-weight:300;
-// }
-
-// @font-face {
-// font-family:"paralucent";
-// src:url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
-// font-display:auto;font-style:normal;font-weight:400;
-// }
+@font-face {font-family: "Paralucent Text Pro"; src: url("../public/fonts/e9a9077614555edfb5bc3612c935526b.eot"); src: url("../public/fonts/e9a9077614555edfb5bc3612c935526b.woff2") format("woff2"), url("../public/fonts/e9a9077614555edfb5bc3612c935526b.woff") format("woff"), url("../public/fonts/e9a9077614555edfb5bc3612c935526b.ttf") format("truetype"), url("../public/fonts/e9a9077614555edfb5bc3612c935526b.svg") format("svg"); font-display:auto;font-style:normal;font-weight:500;}
 
 * {
   -webkit-box-sizing: border-box;
@@ -93,7 +79,67 @@ html.light {
 @mixin heading {
   text-align: center;
   font-weight: 500;
-  font-size: calc(2.2rem + 2vw);
+  font-size: calc(1.3rem + 4vw);
+}
+
+@mixin contact-section {
+  .contact-section {
+    background: #00295D;
+    border-radius: 2rem;
+    margin: 6rem -5%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span {
+      color: var(--text-gray);
+      font-weight: 300;
+      font-size: calc(1.1rem + 4*(100vw - 30rem)/800);
+      text-align: center;
+      width: 90%;
+      max-width: 25rem;
+      line-height: 1.4;
+      margin-bottom: calc(0.3rem + 2vw);
+    }
+
+    h3 {
+      @include heading;
+    }
+  }
+}
+
+@mixin tech-section {
+  .tech-section {
+    h3 {
+      @include heading;
+    }
+
+    .tech-logos {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding: 0 5%;
+      gap: 5%;
+      flex-wrap: wrap;
+      margin-top: 3rem;
+
+      img {
+        opacity: 0.6;
+        flex-shrink: 2;
+        height: calc(1rem + 5vw);
+        max-height: 4rem;
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
+
+@mixin page-container {
+  width: var(--body-width);
+  max-width: 1020px;
+  margin: auto;
+  margin-top: calc(6.5rem + 8vh);
 }
 
 html {
@@ -199,9 +245,7 @@ html {
     }
 
     .home-page {
-      width: var(--body-width);
-      max-width: 1020px;
-      margin: auto;
+      @include page-container;
 
       .hero {
 
@@ -212,7 +256,6 @@ html {
           font-size: calc(2.2rem + 4vw);
           line-height: 1.1;
           color: var(--text-white);
-          margin-top: calc(6.5rem + 8vh);
         }
 
         h5 {
@@ -351,53 +394,15 @@ html {
         }
       }
 
-      .tech-section {
-        h3 {
-          @include heading;
-        }
+      @include tech-section;
 
-        .tech-logos {
-          width: 100%;
-          display: flex;
-          justify-content: space-around;
-          padding: 0 5%;
-          gap: 5%;
-          flex-wrap: wrap;
-          margin-top: 3rem;
+      @include contact-section;
+    }
 
-          img {
-            opacity: 0.6;
-            flex-shrink: 2;
-            height: calc(1rem + 5vw);
-            max-height: 4rem;
-            margin: 0.5rem 0;
-          }
-        }
-      }
-
-      .contact-section {
-        background: #00295D;
-        border-radius: 2rem;
-        margin: 6rem -5%;
-        padding: 5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        span {
-          color: var(--text-gray);
-          font-weight: 300;
-          font-size: calc(1.1rem + 4*(100vw - 30rem)/800);
-          text-align: center;
-          width: 90%;
-          max-width: 30rem;
-          line-height: 1.4;
-        }
-
-        h3 {
-          @include heading;
-        }
-      }
+    .about-page {
+      @include page-container;
+      @include contact-section;
+      @include tech-section;
     }
   }
 }

@@ -46,9 +46,9 @@ class MyDocument extends Document {
               </a>
             </Link>
             <nav className='navigation'>
-              <span><Link href='/'>About</Link></span>
-              <span><Link href='/'>Projects</Link></span>
-              <span><Link href='/'>Articles</Link></span>
+              <span><Link href='/about'>About</Link></span>
+              <span><Link href='/projects'>Projects</Link></span>
+              <span><Link href='/posts'>Articles</Link></span>
               <span>
                 <button type='button'>
                   <img src='dark_mode.svg' alt='dark-mode' />

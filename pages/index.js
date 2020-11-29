@@ -63,7 +63,7 @@ const Contact = () => (
 
 export default function Home() {
   return (
-    <div className='home-page'>
+    <motion.div className='home-page'>
       <Head>
         <title>Software Engineer - Tolu Lawson</title>
       </Head>
@@ -108,7 +108,7 @@ export default function Home() {
       </motion.section>
       <Tech />
       <Contact />
-    </div>
+    </motion.div>
   );
 }
 
