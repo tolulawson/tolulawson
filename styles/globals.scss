@@ -106,6 +106,41 @@ html.light {
     h3 {
       @include heading;
     }
+
+    .contact-buttons {
+      margin-top: calc(2rem + 2vw);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10%;
+      width: 100%;
+
+      .contact-button {
+        background: none;
+        border: 1px solid var(--light-blue);
+        border-radius: 100%;
+        width: calc(3rem + 2vw);
+        height: calc(3rem + 2vw);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background 0.3s ease-out;
+        cursor: pointer;
+
+        &:hover {
+          background: var(--light-blue);
+
+          img {
+            filter: invert(90%) sepia(51%) saturate(2878%) hue-rotate(176deg) brightness(104%) contrast(97%);
+          }
+        }
+
+        img {
+          height: 45%;
+        }
+      }
+
+    }
   }
 }
 

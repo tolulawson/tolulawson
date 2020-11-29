@@ -51,10 +51,10 @@ const Contact = () => (
       Let’s work together
     </motion.h3>
     <motion.div className='contact-buttons'>
-      <motion.a href='https://www.linkedin.com/in/tolulawson/' target='_blank' rel='noopener noreferrer'>
+      <motion.a href='https://www.linkedin.com/in/tolulawson/' target='_blank' rel='noopener noreferrer' className='contact-button'>
         <img src='/linkedin.svg' alt='linkedIn logo' />
       </motion.a>
-      <motion.button>
+      <motion.button className='contact-button'>
         <img src='/email.svg' alt='Email icon' />
       </motion.button>
     </motion.div>
