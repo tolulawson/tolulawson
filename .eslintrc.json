@@ -27,6 +27,6 @@
         "specialLink": [ "hrefLeft", "hrefRight" ],
         "aspects": [ "invalidHref", "preferButton" ]
       }],
-      max-len: ["error", { "ignoreStrings": true }]
+      "max-len": ["error", { "ignoreStrings": true }]
     }
 }

@@ -29,6 +29,38 @@ const Project = (
   </motion.div>
 );
 
+const Tech = () => (
+  <motion.section className='tech-section'>
+    <motion.h3>Technologies I use</motion.h3>
+    <motion.div className='tech-logos'>
+      <motion.img src='/react.svg' alt='React logo' whileHover={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+      <motion.img src='/nextjs.svg' alt='NextJS logo' whileHover={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+      <motion.img src='/redux.svg' alt='Redux logo' whileHover={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+      <motion.img src='/firebase.svg' alt='Firebase logo' whileHover={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+    </motion.div>
+  </motion.section>
+);
+
+const Contact = () => (
+  <motion.section className='contact-section'>
+    <motion.span>
+      I’m currently open to opportunities
+      with ambitious people and companies
+    </motion.span>
+    <motion.h3>
+      Let’s work together
+    </motion.h3>
+    <motion.div className='contact-buttons'>
+      <motion.a href='https://www.linkedin.com/in/tolulawson/' target='_blank' rel='noopener noreferrer'>
+        <img src='/linkedin.svg' alt='linkedIn logo' />
+      </motion.a>
+      <motion.button>
+        <img src='/email.svg' alt='Email icon' />
+      </motion.button>
+    </motion.div>
+  </motion.section>
+);
+
 export default function Home() {
   return (
     <div className='home-page'>
@@ -36,7 +68,9 @@ export default function Home() {
         <title>Software Engineer - Tolu Lawson</title>
       </Head>
       <motion.div className='hero'>
-        <motion.h3>I design and build beautiful and reliable software</motion.h3>
+        <motion.h3>
+          I design and build beautiful and reliable software
+        </motion.h3>
         <motion.h5>Software Engineer based in Lagos, Nigeria</motion.h5>
       </motion.div>
       <motion.section className='projects-row'>
@@ -63,17 +97,19 @@ export default function Home() {
       <motion.section className='about-section'>
         <motion.div className='details'>
           <motion.h3>About me</motion.h3>
-          <motion.p>I'm a Frontend Software Engineer with more than 3 years of experience defining requirements, designing, implementing, testing, and delivering complex web applications and interactive experiences.</motion.p>
+          <motion.p>
+            I'm a Frontend Software Engineer with more than 3 years of experience defining requirements, designing, implementing, testing, and delivering complex web applications and interactive experiences.
+          </motion.p>
           <Link href='/about'>
             <a className='btn'>Find out more</a>
           </Link>
         </motion.div>
-        <motion.div className='pic'>
-        </motion.div>
+        <motion.div className='pic' />
       </motion.section>
-      <motion.section className='tech-section'>
-        <motion.h3>Technologies I use</motion.h3>
-      </motion.section>
+      <Tech />
+      <Contact />
     </div>
   );
 }
+
+export { Tech, Contact };
