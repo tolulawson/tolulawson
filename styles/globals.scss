@@ -1,16 +1,23 @@
 @import url("https://p.typekit.net/p.css?s=1&k=wlc2vak&ht=tk&f=28000.28056.31643&a=1240669&app=typekit&e=css");
 
-@font-face {
-font-family:"paralucent";
-src:url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
-font-display:auto;font-style:normal;font-weight:300;
-}
+@font-face {font-family: "paralucent"; src: url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.eot"); src: url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.woff") format("woff"), url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5ab37fdd58c81a97fd760880db5e763e.svg#ParalucentW00-ExtraLight") format("svg");
+font-display:auto;font-style:normal;font-weight:300;}
 
-@font-face {
-font-family:"paralucent";
-src:url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
-font-display:auto;font-style:normal;font-weight:400;
-}
+@font-face {font-family: "paralucent"; src: url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.eot"); src: url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.woff") format("woff"), url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/019787561c6d828d2329282a3b274358.svg#ParalucentW00-Light") format("svg"); font-display:auto;font-style:normal;font-weight:400;}
+
+@font-face {font-family: "Paralucent Text Pro"; src: url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.eot"); src: url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.woff") format("woff"), url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e9a9077614555edfb5bc3612c935526b.svg#Paralucent Text Pro") format("svg"); font-display:auto;font-style:normal;font-weight:500;}
+
+// @font-face {
+// font-family:"paralucent";
+// src:url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/854e12/00000000000000003b9ad9d8/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+// font-display:auto;font-style:normal;font-weight:300;
+// }
+
+// @font-face {
+// font-family:"paralucent";
+// src:url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/26af32/00000000000000003b9ada10/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+// font-display:auto;font-style:normal;font-weight:400;
+// }
 
 * {
   -webkit-box-sizing: border-box;
@@ -37,26 +44,78 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+:root {
+  --body-width: 80%;
+
+  .btn {
+    line-height: 3;
+    background-color: #39BAF1;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--medium-dark-blue);
+    padding: 0.9rem;
+    transition: scale 0.3s ease-out;
+    wid
+
+    &:hover {
+      // transform: scale(2);
+    }
+  }
+}
+
 html.dark {
   --background: #001E43;
   --text-gray: #CBCBCB;
-  --white: #fff;
+  --text-white: #fff;
   --light-blue: #39BAF1;
+  --medium-dark-blue: #012859;
+  --nav-background: rgb(0 30 67 / 60%);
+  --paralucent: 'paralucent',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
 html.light {
 
 }
 
+@mixin underlineLink {
+  transition: background-color .3s ease-out, background-size .3s ease-out, border-color .3s ease-out, color .3s ease-out;
+  background-image: linear-gradient(var(--light-blue), var(--light-blue));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 .15rem;
+}
+
+@mixin underlineLinkHover {
+  color: var(--text-white);
+  background-size: 100% .15rem;
+}
+
 html {
   background-color: var(--background);
-  font-family: paralucent,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-  font-weight: 300;
+  font-family: var(--paralucent);
+  color: var(--text-white);
+  font-weight: 400;
+
+  &::-webkit-scrollbar {
+    height: 1.5rem;
+    width: 1.5rem;
+    -webkit-appearance: none;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--medium-dark-blue);
+    border: .5rem solid var(--background);
+    border-radius: 1.5rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transprent;
+  }
 
   body {
-    width: 100vw;
+    overflow-x: hidden;
 
-    nav {
+    header {
       max-width: 1140px;
       width: 90%;
       display: flex;
@@ -64,6 +123,12 @@ html {
       margin: auto;
       padding: 1.7rem 0;
       align-items: center;
+      position: fixed;
+      top: 0;
+      backdrop-filter: blur(1rem);
+      background-color: var(--nav-background);
+      left: 50%;
+      transform: translateX(-50%);
 
       .logo {
         width: 20%;
@@ -75,7 +140,7 @@ html {
         }
       }
 
-      .navigation {
+      nav {
         list-style: none;
         display: flex;
         justify-content: space-between;
@@ -83,7 +148,7 @@ html {
         color: var(--text-gray);
         font-size: 1rem;
 
-        li {
+        span {
           &:not(:last-child) {
             margin-right: min(3rem, 3vw);
             color: var(--text-gray);
@@ -95,11 +160,11 @@ html {
               background-image: linear-gradient(var(--light-blue), var(--light-blue));
               background-position: 0 100%;
               background-repeat: no-repeat;
-              background-size: 0 .1rem;
+              background-size: 0 .15rem;
 
               &:hover {
-                color: var(--white);
-                background-size: 100% .1rem;
+                color: var(--text-white);
+                background-size: 100% .15rem;
               }
             }
           }
@@ -128,13 +193,156 @@ html {
     }
 
     .home-page {
+      width: var(--body-width);
+      max-width: 1020px;
+      margin: auto;
+
       .hero {
-        font-family: Paralucent Medium;
-        font-style: normal;
-        font-weight: 500;
-        font-size: calc(2.375rem + 54*(100vw - 30rem)/800);
-        line-height: 1.1;
-        color: var(--white);
+
+        h3 {
+          font-family: Paralucent Medium;
+          font-style: normal;
+          font-weight: 400;
+          font-size: calc(2.2rem + 4vw);
+          line-height: 1.1;
+          color: var(--text-white);
+          margin-top: calc(6.5rem + 8vh);
+        }
+
+        h5 {
+          color: var(--text-gray);
+          font-size: calc(1.2rem + 8*(100vw)/1000);
+          margin-top: calc(1rem + 1vh);
+          font-weight: 300;
+        }
+      }
+
+      .projects-row {
+        width: 100%;
+        margin: 7rem 0 2.8rem;
+        display: flex;
+        z-index: 1;
+        flex-wrap: wrap;
+        gap: 15%;
+
+        .single-project {
+          display: flex;
+          margin-top: 2rem;
+          flex-grow: 1;
+          justify-content: space-around;
+          width: max(9rem, 10vw);
+          min-width: 17rem;
+          max-width: 25rem;
+
+          &:not(:last-child) {
+            // margin-right: calc(2rem + 10vw);
+          }
+
+          .details {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            .logo {
+              height: 4rem;
+              // width: calc(5rem + 2*(100vw - 20rem)/500);
+
+              &.readastic {
+                // margin-left: -2rem;
+              }
+
+              &.quiz-app {
+                width: calc(5rem + 10vw);
+              }
+            }
+
+            .description {
+              font-size: 1.4rem;
+              margin-top: calc(1.5rem + 2*(100vw - 20rem)/500);
+              font-weight: 300;
+              // width: calc(9rem + 3vw);
+            }
+
+            .link-row {
+              margin-top: calc(1.1rem + 2*(100vw - 20rem)/500);
+
+              .link-button {
+
+                &:hover {
+                  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(176deg) brightness(104%) contrast(97%);
+                }
+
+                &:not(:last-child) {
+                  margin-right: 1.5rem;
+                }
+
+                img {
+                  width: 1.5rem;
+                }
+              }
+            }
+          }
+
+          .picture {
+            width: calc(7rem + 2*(100vw - 20rem)/500);
+            object-fit: contain;
+            margin-left: calc(0.2rem + 1vw);
+          }
+        }
+      }
+
+      .about-section {
+        display: flex;
+        background: #00295D;
+        border-radius: 3rem;
+        margin: 6rem -5%;
+        padding: 5%;
+        gap: 5%;
+        justify-content: space-between;
+        height: calc(10rem + 25vw);
+
+
+        .details {
+          // margin-right: calc(2rem + 15*(100vw - 30rem)/800);
+          width: 50%;
+          // display: flex;
+          // flex-direction: column;
+          // justify-content: space-between;
+
+          h3 {
+          font-weight: 500;
+          font-size: calc(2.5rem + 15*(100vw - 20rem)/800);
+          margin-bottom: 1rem;
+          }
+
+          p {
+            font-size: calc(0.7rem + 1vw);
+            line-height: 1.4;
+            font-weight: 300;
+            margin-bottom: calc(0.3rem + 3vw);
+            color: var(--text-gray);
+          }
+        }
+
+        .pic {
+          border-radius: 24px;
+          width: 50%;
+          // height: calc(6rem + 20vw);
+          height: 100%;
+          align-self: center;
+          background-image: url('../public/tolulawson.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+
+          img {
+            height: 100%;
+            width: 100%;
+            border-radius: 24px;
+          }
+        }
       }
     }
   }

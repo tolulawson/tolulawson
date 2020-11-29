@@ -34,27 +34,28 @@ class MyDocument extends Document {
           <meta property='og:image' content={`${typeof window !== 'undefined' ? window.loation.origin : ''}/share_preview.png`} />
 
           <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
-          <link rel='icon' href='/favicon.ico' type='image/x-icon' />
+          <link rel='icon' type='image/png' href='favicon-32x32.png' sizes='32x32' />
+          <link rel='icon' type='image/png' href='favicon-16x16.png' sizes='16x16' />
         </Head>
         <body>
           <script src='/js/setTheme.js' />
-          <nav>
+          <header>
             <Link href='/'>
               <a className='logo'>
                 <img src='logo_dark.svg' alt='logo' />
               </a>
             </Link>
-            <ul className='navigation'>
-              <li><Link href='/'>About</Link></li>
-              <li><Link href='/'>Projects</Link></li>
-              <li><Link href='/'>Articles</Link></li>
-              <li>
+            <nav className='navigation'>
+              <span><Link href='/'>About</Link></span>
+              <span><Link href='/'>Projects</Link></span>
+              <span><Link href='/'>Articles</Link></span>
+              <span>
                 <button type='button'>
                   <img src='dark_mode.svg' alt='dark-mode' />
                 </button>
-              </li>
-            </ul>
-          </nav>
+              </span>
+            </nav>
+          </header>
           <Main />
           <NextScript />
         </body>
