@@ -23,7 +23,7 @@ class MyDocument extends Document {
           <meta property='og:url' content='https://tolulawson.com/' />
           <meta property='og:title' content='Tolu Lawson — Software Engineer' />
           <meta property='og:description' content='Software engineer with years of experience defining requirements, designing, implementing, testing, and delivering complex web applications and interactive experiences.' />
-          <meta property='og:image' content={`${typeof window !== 'undefined' ? window.loation.origin : ''}/share_preview.png`} />
+          <meta property='og:image' content={`${typeof window !== 'undefined' ? window.location.origin : ''}/share_preview.png`} />
 
           <meta name='twitter:card' content='summary_large_image' />
           <meta name='twitter:site' content='@tolulawson' />
@@ -46,9 +46,9 @@ class MyDocument extends Document {
               </a>
             </Link>
             <nav className='navigation'>
-              <span><Link href='/about'>About</Link></span>
-              <span><Link href='/projects'>Projects</Link></span>
-              <span><Link href='/posts'>Articles</Link></span>
+              <span className={`${process.browser && window.location.pathname.endsWith('about') ? 'current-menu' : ''}`}><Link href='/about'>About</Link></span>
+              <span><Link href='/'>Projects</Link></span>
+              <span><Link href='/'>Articles</Link></span>
               <span>
                 <button type='button'>
                   <img src='dark_mode.svg' alt='dark-mode' />

@@ -54,9 +54,9 @@ const Contact = () => (
       <motion.a href='https://www.linkedin.com/in/tolulawson/' target='_blank' rel='noopener noreferrer' className='contact-button'>
         <img src='/linkedin.svg' alt='linkedIn logo' />
       </motion.a>
-      <motion.button className='contact-button'>
+      <motion.a className='contact-button' href='mailto:mailme@tolulawson.com'>
         <img src='/email.svg' alt='Email icon' />
-      </motion.button>
+      </motion.a>
     </motion.div>
   </motion.section>
 );
