@@ -113,7 +113,7 @@ html.light {
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 10%;
+      // gap: 10%;
       width: 100%;
 
       .contact-button {
@@ -127,6 +127,10 @@ html.light {
         align-items: center;
         transition: background 0.3s ease-out;
         cursor: pointer;
+
+        &:not(:last-child) {
+          margin-right: 5%;
+        }
 
         &:hover {
           background: var(--light-blue);
@@ -490,6 +494,7 @@ html {
           flex-wrap: wrap;
           justify-content: space-between;
           color: var(--text-gray);
+          margin-bottom: calc(0.5rem + 2vw);
 
           span {
             min-width: 15rem;
@@ -506,6 +511,7 @@ html {
         }
 
         .resume-btn {
+
           img {
             vertical-align: middle;
             width: 1rem;
