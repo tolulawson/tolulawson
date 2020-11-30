@@ -1,9 +1,9 @@
 @font-face {font-family: "paralucent"; src: url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.eot"); src: url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.woff2") format("woff2"), url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.woff") format("woff"), url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.ttf") format("truetype"), url("../public/fonts/5ab37fdd58c81a97fd760880db5e763e.svg") format("svg");
-font-display:auto;font-style:normal;font-weight:300;}
+font-display:auto;font-style:thin;font-weight:300;}
 
 @font-face {font-family: "paralucent"; src: url("../public/fonts/019787561c6d828d2329282a3b274358.eot"); src: url("../public/fonts/019787561c6d828d2329282a3b274358.woff2") format("woff2"), url("../public/fonts/019787561c6d828d2329282a3b274358.woff") format("woff"), url("../public/fonts/019787561c6d828d2329282a3b274358.ttf") format("truetype"), url("../public/fonts/019787561c6d828d2329282a3b274358.svg") format("svg"); font-display:auto;font-style:normal;font-weight:400;}
 
-@font-face {font-family: "Paralucent Text Pro"; src: url("../public/fonts/e9a9077614555edfb5bc3612c935526b.eot"); src: url("../public/fonts/e9a9077614555edfb5bc3612c935526b.woff2") format("woff2"), url("../public/fonts/e9a9077614555edfb5bc3612c935526b.woff") format("woff"), url("../public/fonts/e9a9077614555edfb5bc3612c935526b.ttf") format("truetype"), url("../public/fonts/e9a9077614555edfb5bc3612c935526b.svg") format("svg"); font-display:auto;font-style:normal;font-weight:500;}
+@font-face {font-family: "Paralucent Text Pro"; src: url("../public/fonts/e9a9077614555edfb5bc3612c935526b.eot"); src: url("../public/fonts/e9a9077614555edfb5bc3612c935526b.woff2") format("woff2"), url("../public/fonts/e9a9077614555edfb5bc3612c935526b.woff") format("woff"), url("../public/fonts/e9a9077614555edfb5bc3612c935526b.ttf") format("truetype"), url("../public/fonts/e9a9077614555edfb5bc3612c935526b.svg") format("svg"); font-display:auto;font-style:bold;font-weight:500;}
 
 * {
   -webkit-box-sizing: border-box;
@@ -41,6 +41,7 @@ time, mark, audio, video {
     color: var(--medium-dark-blue);
     padding: 0.9rem;
     transition: scale 0.3s ease-out;
+    cursor: pointer;
 
     &:hover {
       transform: scale(1.1);
@@ -51,7 +52,7 @@ time, mark, audio, video {
 
 html.dark {
   --background: #001E43;
-  --text-gray: #CBCBCB;
+  --text-gray: #b3b9cd;
   --text-white: #fff;
   --light-blue: #39BAF1;
   --medium-dark-blue: #012859;
@@ -285,8 +286,6 @@ html {
       .hero {
 
         h3 {
-          font-family: Paralucent Medium;
-          font-style: normal;
           font-weight: 400;
           font-size: calc(2.2rem + 4vw);
           line-height: 1.1;
@@ -443,7 +442,8 @@ html {
         width: 110%;
         position: relative;
         z-index: -1;
-        margin: -2rem -5% 0;
+        margin: -2rem -5% 5rem;
+        margin-bottom: calc(3.5rem + 3vw);
 
         &::before {
           background: linear-gradient(180deg,rgba(0,30,67,0) 0,rgba(0,30,67,.013) 8.1%,rgba(0,30,67,.049) 15.5%,rgba(0,30,67,.104) 22.5%,rgba(0,30,67,.175) 29%,rgba(0,30,67,.259) 35.3%,rgba(0,30,67,.352) 41.2%,rgba(0,30,67,.45) 47.1%,rgba(0,30,67,.55) 52.9%,rgba(0,30,67,.648) 58.8%,rgba(0,30,67,.741) 64.7%,rgba(0,30,67,.825) 71%,rgba(0,30,67,.896) 77.5%,rgba(0,30,67,.951) 84.5%,rgba(0,30,67,.987) 91.9%,#001E43);
@@ -466,7 +466,51 @@ html {
         }
 
         h3 {
-          z-index: 2;
+          position: absolute;
+          font-size: calc(3rem + 10vw);
+          bottom: calc(-3.5rem - 4vw);
+          left: 5%;
+          font-weight: 400;
+        }
+      }
+
+      .about-text {
+        margin-bottom: calc(3rem + 3vw);
+
+        h5 {
+          color: var(--text-white);
+          font-size: calc(0.9rem + 8*(100vw)/500);
+          font-weight: 300;
+          margin-bottom: calc(1rem + 3vw);
+        }
+
+        .bio-text {
+          display: flex;
+          gap: 5%;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          color: var(--text-gray);
+
+          span {
+            min-width: 15rem;
+            width: 45%;
+            flex-grow: 1;
+
+            p {
+              font-size: calc(1.15rem + 3*(100vw - 30rem)/800);
+              font-weight: 300;
+              line-height: 1.55;
+              margin-bottom: 1.5rem;
+            }
+          }
+        }
+
+        .resume-btn {
+          img {
+            vertical-align: middle;
+            width: 1rem;
+            margin-right: 0.5rem;
+          }
         }
       }
     }

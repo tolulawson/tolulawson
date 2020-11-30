@@ -33,10 +33,10 @@ const Tech = () => (
   <motion.section className='tech-section'>
     <motion.h3>Technologies I use</motion.h3>
     <motion.div className='tech-logos'>
-      <motion.img src='/react.svg' alt='React logo' whileHover={{ opacity: 1 }} transition={{ duration: 0.3 }} />
-      <motion.img src='/nextjs.svg' alt='NextJS logo' whileHover={{ opacity: 1 }} transition={{ duration: 0.3 }} />
-      <motion.img src='/redux.svg' alt='Redux logo' whileHover={{ opacity: 1 }} transition={{ duration: 0.3 }} />
-      <motion.img src='/firebase.svg' alt='Firebase logo' whileHover={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+      <motion.img src='/react.svg' alt='React logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+      <motion.img src='/nextjs.svg' alt='NextJS logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+      <motion.img src='/redux.svg' alt='Redux logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+      <motion.img src='/firebase.svg' alt='Firebase logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
     </motion.div>
   </motion.section>
 );
