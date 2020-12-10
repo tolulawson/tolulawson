@@ -1,10 +1,11 @@
+/* eslint-disable max-len */
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { Tech, Contact } from './index';
 
 export default function About() {
   return (
-    <motion.div className='about-page'>
+    <motion.div className='about-page page'>
       <Head>
         <title>About - Tolu Lawson</title>
       </Head>
@@ -36,6 +37,22 @@ export default function About() {
           <img src='/link.svg' alt='link icon' />
           Résumé
         </a>
+      </motion.section>
+      <motion.section className='clients-section'>
+        <motion.h3>Clients I’ve worked with</motion.h3>
+        <motion.span>
+          A small selection of clients I’ve collaborated with to date
+        </motion.span>
+        <motion.div className='clients-logos call-out'>
+          <motion.img className='first-row' src='/merck.svg' alt='Merck logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+          <motion.img className='first-row' src='/sanofi.svg' alt='Sanofi logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+          <motion.img className='first-row' src='/novartis.svg' alt='Novartis logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+          <motion.img className='second-row' src='/janssen.svg' alt='Janssen logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+          <motion.img className='second-row' src='/servier.svg' alt='Servier logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+          <motion.img className='second-row' src='/roche.svg' alt='Roche logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+          <motion.img className='third-row' src='/danone.svg' alt='Danone logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+          <motion.img className='third-row' src='/biomereux.svg' alt='Biomereux logo' whileHover={{ opacity: 1 }} whileTap={{ opacity: 1 }} transition={{ duration: 0.3 }} />
+        </motion.div>
       </motion.section>
       <Tech />
       <Contact />

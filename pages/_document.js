@@ -16,6 +16,8 @@ class MyDocument extends Document {
     return (
       <Html className='dark'>
         <Head>
+          <link rel='preconnect' href='https://fonts.gstatic.com' />
+          <link href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap' rel='stylesheet' />
           <meta name='title' content='Tolu Lawson — Software Engineer' />
           <meta name='description' content='Software engineer with years of experience defining requirements, designing, implementing, testing, and delivering complex web applications and interactive experiences.' />
 
@@ -40,21 +42,23 @@ class MyDocument extends Document {
         <body>
           <script src='/js/setTheme.js' />
           <header>
-            <Link href='/'>
-              <a className='logo'>
-                <img src='logo_dark.svg' alt='logo' />
-              </a>
-            </Link>
-            <nav className='navigation'>
-              <span className={`${process.browser && window.location.pathname.endsWith('about') ? 'current-menu' : ''}`}><Link href='/about'>About</Link></span>
-              <span><Link href='/'>Projects</Link></span>
-              <span><Link href='/'>Articles</Link></span>
-              <span>
-                <button type='button'>
-                  <img src='dark_mode.svg' alt='dark-mode' />
-                </button>
-              </span>
-            </nav>
+            <div className='header-wrapper'>
+              <Link href='/'>
+                <a className='logo'>
+                  <img src='logo_dark.svg' alt='logo' />
+                </a>
+              </Link>
+              <nav className='navigation'>
+                <span className={`${process.browser && window.location.pathname.endsWith('about') ? 'current-menu' : ''}`}><Link href='/about'>About</Link></span>
+                <span><Link href='/'>Projects</Link></span>
+                <span><Link href='/'>Articles</Link></span>
+                <span>
+                  <button type='button'>
+                    <img src='dark_mode.svg' alt='dark-mode' />
+                  </button>
+                </span>
+              </nav>
+            </div>
           </header>
           <Main />
           <NextScript />

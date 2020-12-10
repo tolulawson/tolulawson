@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
 import Head from 'next/head';
 import Link from 'next/link';
@@ -43,7 +44,7 @@ const Tech = () => (
 );
 
 const Contact = () => (
-  <motion.section className='contact-section'>
+  <motion.section className='contact-section call-out'>
     <motion.span>
       I’m currently open to opportunities
       with ambitious people and companies
@@ -64,9 +65,10 @@ const Contact = () => (
 
 export default function Home() {
   return (
-    <motion.div className='home-page'>
+    <motion.div className='home-page page'>
       <Head>
         <title>Software Engineer - Tolu Lawson</title>
+        <link rel='prefetch' href='tolulawson_about.jpg' />
       </Head>
       <motion.div className='hero'>
         <motion.h3>
@@ -105,7 +107,9 @@ export default function Home() {
             <a className='btn'>Find out more</a>
           </Link>
         </motion.div>
-        <motion.div className='pic' />
+        <motion.div className='pic'>
+          <motion.img src='tolulawson.jpg' />
+        </motion.div>
       </motion.section>
       <Tech />
       <Contact />
