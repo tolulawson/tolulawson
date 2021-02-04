@@ -1,37 +1,32 @@
-import React ,{ Component }from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import React, { Component } from "react";
+import { FiLayers , FiUsers , FiMonitor, FiTarget, FiGitPullRequest } from "react-icons/fi";
 
 const ServiceList = [
     {
-        icon: <FiCast />,
-        title: 'Business Stratagy',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FiTarget />,
+        title: 'Business Goals',
+        description: 'We discuss your business objectives and tailor the project to achieving just that.'
+    },
+    {
+        icon: <FiUsers />,
+        title: 'User Experience',
+        description: 'I design your websites and apps to be as easy to use as possible, guiding users towards the end goal.'
     },
     {
         icon: <FiLayers />,
-        title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Tailored Development',
+        description: 'I build with your objectives at the forefront, working closely with you through the entire process.'
     },
     {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        icon: <FiGitPullRequest />,
+        title: 'Meticulous Testing',
+        description: 'I ensure the quality of your project by meticulously testing using multiple approaches.'
     },
     { 
         icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Ongoing Support',
+        description: 'Whether you\'re adding new features or making improvements, I’m there to provide all the support you\'d require.'
     },
-    {
-        icon: <FiUsers />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    },
-    { 
-        icon: <FiMonitor />,
-        title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-    }
 ]
 
 
@@ -45,7 +40,7 @@ class ServiceThree extends Component{
                 <div className="row">
                     {ServiceContent.map( (val , i) => (
                         <div className={`${column}`} key={i}>
-                            <a href="/service-details">
+                            <span>
                                 <div className="service service__style--2">
                                     <div className="icon">
                                         {val.icon}
@@ -55,7 +50,7 @@ class ServiceThree extends Component{
                                         <p>{val.description}</p>
                                     </div>
                                 </div>
-                            </a>
+                            </span>
                         </div>
                     ))}
                 </div>

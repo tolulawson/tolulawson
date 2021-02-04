@@ -1,9 +1,10 @@
 //===== Colors =====//
-$theme-color: #f9004d;
+$theme-color: #00398F;
 $body-color: #1d1d24;
 $heading-color: #1f1f25;
 $border-color: #d4d4d4;
 $white:#fff;
+$text-color: #29292d;
 
 
 /*===============================
@@ -37,7 +38,7 @@ $colorList: $color-1, $color-2 ,$color-3 ,$color-4;
 $body-line-height: 1.714286;
 //==== Font size =====//
 $body-font-size: 14px;
-$h1: 64px;
+$h1: clamp(2rem, 10vw, 4rem);
 $h2: 54px;
 $h3: 24px;
 $h4: 20px;

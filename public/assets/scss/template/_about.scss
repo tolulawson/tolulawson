@@ -129,12 +129,17 @@
         h2{
             &.title{
                 margin-bottom: 8px;
+                font-size: clamp(2rem, 10vw, 4rem);
+                line-height: 1.1;
+                font-weight: 600;
+                // margin-bottom: 5rem;
+                letter-spacing: -2px;
             }
         }
         p{
             &.description{
                 font-weight: 300;
-                color: #717173;
+                color: $text-color;
                 a{
                     color: rgba(29, 29, 36, 1);
                     &:hover{

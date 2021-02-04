@@ -6,6 +6,7 @@
 import React, { Component, Fragment } from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from 'react-icons/fi';
+import Image from 'next/image';
 import HeaderTwo from '../component/header/HeaderTwo';
 import FooterTwo from '../component/footer/FooterTwo';
 import Brand from '../elements/Brand';
@@ -25,7 +26,7 @@ const SlideList = [
 ];
 class PersonalPortfolio extends Component {
   render() {
-    const title = 'About Tolu Lawson';
+    const title = 'About me';
     const description = 'I\'m a Software Developer with more than 3 years of experience defining requirements, designing, implementing, testing, and delivering complex web applications and interactive experiences.';
     return (
       <>
@@ -61,7 +62,12 @@ class PersonalPortfolio extends Component {
               <div className='row row--35 align-items-center'>
                 <div className='col-lg-5'>
                   <div className='thumbnail'>
-                    <img className='w-100' src='/assets/images/about/about-5.jpg' alt='About Images' />
+                    <Image
+                      src='/assets/images/about/about-5.jpg'
+                      alt='Picture of Tolu Lawson'
+                      width={495}
+                      height={780}
+                    />
                   </div>
                 </div>
                 <div className='col-lg-7'>
@@ -87,7 +93,7 @@ class PersonalPortfolio extends Component {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='section-title text-center service-style--3 mb--30'>
-                  <h2 className='title'>My Best Client</h2>
+                  <h2 className='title'>Clients I've Worked With</h2>
                   <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
                 </div>
               </div>

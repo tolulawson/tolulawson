@@ -35,7 +35,7 @@ class TabsTwo extends Component {
                         </li>
                         <li>
                           <a href='/service'>
-                            Web and user interface design
+                            Strategy
                             <span> - Development</span>
                           </a>
                           Websites, web experiences, ...
