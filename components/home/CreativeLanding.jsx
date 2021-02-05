@@ -25,7 +25,7 @@ const SlideList = [
     textPosition: 'text-center',
     category: 'Design. Build. Improve',
     title: '',
-    description: 'I design and build beautiful and reliable software',
+    description: 'I design and build reliable and beautiful software',
     buttonText: 'Let\'s work together',
     buttonLink: '/contact',
   },
@@ -301,7 +301,7 @@ class CreativeLanding extends Component {
         {/* End Blog Area */}
 
         {/* Start Contact Us */}
-        <div className='rn-contact-us ptb--120 bg_color--1' id='contact'>
+        <div className='rn-contact-us ptb--100 bg_color--5' id='contact'>
           <Contact />
         </div>
         {/* End Contact Us */}
@@ -322,11 +322,11 @@ class CreativeLanding extends Component {
         <FooterTwo />
         {/* End Footer Style  */}
         {/* Start Back To Top */}
-        <div className='backto-top'>
+        {/* <div className='backto-top'>
           <ScrollToTop showUnder={160}>
             <FiChevronUp />
           </ScrollToTop>
-        </div>
+        </div> */}
         {/* End Back To Top */}
 
       </>

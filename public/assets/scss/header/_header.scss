@@ -91,6 +91,8 @@
         .logo {
             a {
                 img {
+                    max-width: 200px;
+
                     @media #{$sm-layout} {
                         width: 120px;
                     }

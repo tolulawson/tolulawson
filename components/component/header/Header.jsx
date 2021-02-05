@@ -51,15 +51,15 @@ class Header extends Component {
     const { logo, color = 'default-color' } = this.props;
     let logoUrl;
     if (logo === 'light') {
-      logoUrl = <img src='/assets/images/logo/logo-light.png' alt='Digital Agency' />;
+      logoUrl = <img src='/logo-light.svg' alt='Tolu Lawson' />;
     } else if (logo === 'dark') {
-      logoUrl = <img src='/assets/images/logo/logo-dark.png' alt='Digital Agency' />;
+      logoUrl = <img src='/assets/images/logo/logo-dark.png' alt='Tolu Lawson' />;
     } else if (logo === 'symbol-dark') {
-      logoUrl = <img src='/assets/images/logo/logo-symbol-dark.png' alt='Digital Agency' />;
+      logoUrl = <img src='/assets/images/logo/logo-symbol-dark.png' alt='Tolu Lawson' />;
     } else if (logo === 'symbol-light') {
-      logoUrl = <img src='/assets/images/logo/logo-symbol-light.png' alt='Digital Agency' />;
+      logoUrl = <img src='/assets/images/logo/logo-symbol-light.png' alt='Tolu Lawson' />;
     } else {
-      logoUrl = <img src='/assets/images/logo/logo.png' alt='Digital Agency' />;
+      logoUrl = <img src='/logo-light.svg' alt='Tolu Lawson' />;
     }
 
     return (
@@ -81,7 +81,7 @@ class Header extends Component {
                 <li><Link href='#service'>Services</Link></li>
                 <li><Link href='/projects'>Projects</Link></li>
                 <li><Link href='/blog'>Blog</Link></li>
-                <li><Link href='/contact'>Contact</Link></li>
+                <li><Link href='#contact'>Contact</Link></li>
               </ul>
             </nav>
             <div className='header-btn'>
