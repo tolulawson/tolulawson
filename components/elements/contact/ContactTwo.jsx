@@ -12,7 +12,7 @@ function ContactTwo() {
     failed: 'An error has occurred. Please try again.',
   };
   const {
-    register, handleSubmit, errors, reset, formState,
+    register, handleSubmit, errors, reset,
   } = useForm({
     mode: 'onSubmit',
     reValidateMode: 'onChange',
