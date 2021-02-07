@@ -96,6 +96,14 @@ a {
         &.rn-btn-small {
             padding: 10px 20px;
         }
+        &.btn-dark-bg {
+            border: 2px solid #fff;
+          &:hover {
+            //   border: 2px solid $theme-color;
+              background: #fff;
+              color: $theme-color;
+          }
+        }
         &.btn-primary-color {
             &:hover {
                 border: 2px solid $theme-color;

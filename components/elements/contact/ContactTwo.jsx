@@ -1,15 +1,17 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable linebreak-style */
 /* eslint-disable no-empty-character-class */
 /* eslint-disable max-len */
-/* eslint-disable linebreak-style */
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import { openPopupWidget } from 'react-calendly';
 
 function ContactTwo() {
   const [loading, setLoading] = useState(false);
   const [sendStatus, setSendStatus] = useState(null);
   const sendStatusMessages = {
-    sent: 'Message sent. I\'ll get back to you.',
-    failed: 'An error has occurred. Please try again.',
+    sent: 'Message on the way. I\'ll get back to you soon.',
+    failed: 'Oops! Something went wrong. Please try again.',
   };
   const {
     register, handleSubmit, errors, reset,
@@ -38,17 +40,32 @@ function ContactTwo() {
           reset();
         }
       })
-      .catch((error) => {
-        console.error('Error:', error);
+      .catch(() => {
+        // console.error('Error:', error);
         setLoading(false);
         setSendStatus('failed');
       });
   };
 
+  const openCalendly = () => {
+    const url = 'https://calendly.com/tolulawson/discovery?hide_event_type_details=1';
+    const pageSettings = {
+      backgroundColor: 'ffffff',
+      hideEventTypeDetails: true,
+      hideLandingPageDetails: true,
+      primaryColor: '00398F',
+      textColor: '4d5055',
+    };
+
+    openPopupWidget({
+      url, pageSettings,
+    });
+  };
+
   return (
     <div className='contact-form--1'>
       <div className='container'>
-        <div className='row row--35'>
+        <div className='row row--35 d-flex justify-content-between'>
           <div className='col-lg-6 order-2 order-lg-1 '>
             <div className='section-title text-left mb--50'>
               <h2 className='title mb-3'>Leave a message</h2>
@@ -94,7 +111,7 @@ function ContactTwo() {
                   />
                 </label>
                 <label htmlFor='item04'>
-                  {errors.message && <span className='text-danger fw-light fs-6'>Leave a message</span>}
+                  {errors.message && <span className='text-danger fw-light fs-6'>Drop a line</span>}
                   <textarea
                     type='text'
                     id='item04'
@@ -110,14 +127,19 @@ function ContactTwo() {
               </form>
             </div>
           </div>
-          {/* <div className="col-lg-6 order-1 order-lg-2">
-                            <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src="/assets/images/about/about-6.jpg" alt="trydo"/>
-                            </div>
-                        </div> */}
+          <div className='col-lg-5 order-2 order-lg-1 p-5 mt-5'>
+            <div className='section-title text-left mb--50' style={{ backgroundColor: '#00398F', borderRadius: '15px', padding: 'clamp(1.5rem, 5vw, 3rem)' }}>
+              <h2 className='title mb-3 text-light'>Schedule a call</h2>
+              <p className='description text-light'>
+                An initial call helps me understand your business, the issues you face, and the goals you hope to achieve.
+              </p>
+              <button type='button' className='rn-button-style--2 btn-dark-bg mt-3' onClick={openCalendly}>Schedule</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
 export default ContactTwo;

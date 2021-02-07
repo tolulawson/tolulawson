@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable max-len */
 /* eslint-disable no-prototype-builtins */
@@ -6,11 +7,9 @@
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable class-methods-use-this */
-/* eslint-disable linebreak-style */
 import React, { Component, Fragment } from 'react';
 import Slider from 'react-slick';
-import ScrollToTop from 'react-scroll-up';
-import { FiChevronUp, FiX, FiMenu } from 'react-icons/fi';
+// import { FiChevronUp, FiX, FiMenu } from 'react-icons/fi';
 import { slickDot } from '../page-demo/script';
 import ServiceList from '../elements/service/ServiceList';
 import BlogContent from '../elements/blog/BlogContent';
@@ -27,7 +26,7 @@ const SlideList = [
     title: '',
     description: 'I design and build reliable and beautiful software',
     buttonText: 'Let\'s work together',
-    buttonLink: '/contact',
+    buttonLink: '#contact',
   },
 ];
 
@@ -115,17 +114,9 @@ class CreativeLanding extends Component {
         {/* End Slider Area   */}
 
         {/* Start Portfolio Area */}
-        <div className='portfolio-area pb--140 bg_color--1' id='portfolio'>
+        {/* <div className='portfolio-area pb--140 bg_color--1' id='portfolio'>
           <div className='rn-slick-dot'>
             <div className='container'>
-              {/* <div className='row'>
-                <div className='col-lg-6'>
-                  <div className='section-title service-style--3 text-left mb--15 mb_sm--0'>
-                    <h2 className='title'>Our Portfolio</h2>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                  </div>
-                </div>
-              </div> */}
               <div className='row'>
                 <div className='col-lg-12'>
                   <div className='slick-space-gutter--15 slickdot--20'>
@@ -159,7 +150,7 @@ class CreativeLanding extends Component {
 
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Portfolio Area */}
 
         {/* Start About Area */}
@@ -177,7 +168,7 @@ class CreativeLanding extends Component {
                     <div className='section-title'>
                       <h1 className='title'>About me</h1>
                       <p className='description'>
-                        I'm a software developer working with teams and businesses around the world defining requirements, designing, implementing, testing, and delivering complex web applications and interactive experiences.
+                        I'm a software developer working with teams and businesses around the world to define requirements, design, implement, test, and deliver complex web applications and interactive experiences.
                       </p>
                       <p className='description'>
                         Over the past 5 years, I've built web apps and interactive experiences that enable businesses to achieve their objectives and deliver great experiences to end users.
@@ -214,13 +205,26 @@ class CreativeLanding extends Component {
           <div className='container'>
             <div className='row creative-service'>
               <div className='col-lg-12'>
-                <h1 className="title">Elite Service</h1>
+                <h1 className='title'>Elite Service</h1>
                 <ServiceList item='6' column='col-lg-4 col-md-6 col-sm-6 col-12 text-left' />
               </div>
             </div>
           </div>
         </div>
         {/* End Service Area  */}
+
+        {/* Start Brand Area */}
+        <div className='rn-brand-area bg_color--1 ptb--120'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-lg-12'>
+                <h1 className='title text-center mb-5'>Trusted by Clients</h1>
+                <BrandTwo />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End Brand Area */}
 
         {/* Start CounterUp Area */}
         {/* <div className='rn-counterup-area pt--140 p pb--110 bg_color--5'>
@@ -305,18 +309,6 @@ class CreativeLanding extends Component {
           <Contact />
         </div>
         {/* End Contact Us */}
-
-        {/* Start Brand Area */}
-        <div className='rn-brand-area bg_color--1 ptb--120'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <BrandTwo />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End Brand Area */}
 
         {/* Start Footer Style  */}
         <FooterTwo />

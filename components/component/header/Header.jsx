@@ -79,13 +79,13 @@ class Header extends Component {
               <ul className='mainmenu'>
                 <li><Link href='#about'>About</Link></li>
                 <li><Link href='#service'>Services</Link></li>
-                <li><Link href='/projects'>Projects</Link></li>
-                <li><Link href='/blog'>Blog</Link></li>
+                {/* <li><Link href='/projects'>Projects</Link></li> */}
+                {/* <li><Link href='/blog'>Blog</Link></li> */}
                 <li><Link href='#contact'>Contact</Link></li>
               </ul>
             </nav>
             <div className='header-btn'>
-              <a className='rn-btn' href='https://themeforest.net/checkout/from_item/25457315?license=regular'>
+              <a className='rn-btn' href='#contact'>
                 <span>Hire me</span>
               </a>
             </div>
