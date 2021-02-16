@@ -2,6 +2,8 @@
 Button Area 
 ====================*/
 a {
+    text-decoration: none;
+    
     &.btn-transparent{
         color: #1f1f25;
         @extend %transition;
