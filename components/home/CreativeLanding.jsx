@@ -24,7 +24,7 @@ const SlideList = [
     textPosition: 'text-center',
     category: 'Design. Build. Improve',
     title: '',
-    description: 'I design and build reliable and beautiful software',
+    description: 'I design and build beautiful and solid websites',
     buttonText: 'Let\'s work together',
     buttonLink: '#contact',
   },
