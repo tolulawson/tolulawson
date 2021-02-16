@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable max-len */
@@ -7,10 +8,10 @@
 /* eslint-disable no-var */
 /* eslint-disable vars-on-top */
 /* eslint-disable class-methods-use-this */
-/* eslint-disable linebreak-style */
 // eslint-disable-next-line linebreak-style
 import React, { Component } from 'react';
 import Link from 'next/link';
+// import Scrollspy from 'react-scrollspy';
 import { FiX, FiMenu } from 'react-icons/fi';
 
 class Header extends Component {
@@ -76,6 +77,8 @@ class Header extends Component {
           </div>
           <div className='header-right'>
             <nav className='mainmenunav d-lg-block'>
+
+              {/* <Scrollspy items={['about', 'service', 'contact']} currentClassName='current' className='mainmenu'> */}
               <ul className='mainmenu'>
                 <li><Link href='#about'>About</Link></li>
                 <li><Link href='#service'>Services</Link></li>
@@ -83,6 +86,8 @@ class Header extends Component {
                 {/* <li><Link href='/blog'>Blog</Link></li> */}
                 <li><Link href='#contact'>Contact</Link></li>
               </ul>
+              {/* </Scrollspy> */}
+
             </nav>
             <div className='header-btn'>
               <a className='rn-btn' href='#contact'>

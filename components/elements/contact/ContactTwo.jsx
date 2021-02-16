@@ -133,7 +133,7 @@ function ContactTwo() {
               <p className='description text-light'>
                 An initial call helps me understand your business, the issues you face, and the goals you hope to achieve.
               </p>
-              <button type='button' className='rn-button-style--2 btn-dark-bg mt-3' onClick={openCalendly}>Schedule</button>
+              <button type='button' className='rn-button-style--2 btn-dark-bg mt-3' onClick={openCalendly}>Pick a date</button>
             </div>
           </div>
         </div>

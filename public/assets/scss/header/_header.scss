@@ -31,10 +31,10 @@
             padding: 15px 0;
         }
         @media #{$md-layout} {
-            padding: 30px 0;
+            padding: 20px 0 30px;
         }
         @media #{$lg-layout} {
-            padding: 30px 0;
+            padding: 20px 0;
         }
         .header-hamberger {
             display: flex;

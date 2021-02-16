@@ -12,7 +12,7 @@ export default (req, res) => new Promise((resolve, reject) => {
   } = JSON.parse(req.body);
 
   const data = {
-    from: 'My Website -- Tolu Lawson <website@tolulawson.com>',
+    from: 'My Website -- Tolu Lawson <web@tolulawson.com>',
     to: 'tolu@tolulawson.com',
     subject: 'New message from tolulawson.com',
     text: `Sender: ${name} <${email}>\nSubject: ${subject}\nMessage: ${message}`,

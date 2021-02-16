@@ -7,10 +7,10 @@
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable no-restricted-syntax */
 /* eslint-disable class-methods-use-this */
-import React, { Component, Fragment } from 'react';
-import Slider from 'react-slick';
+import React, { Component } from 'react';
+// import Slider from 'react-slick';
 // import { FiChevronUp, FiX, FiMenu } from 'react-icons/fi';
-import { slickDot } from '../page-demo/script';
+// import { slickDot } from '../page-demo/script';
 import ServiceList from '../elements/service/ServiceList';
 import BlogContent from '../elements/blog/BlogContent';
 import BrandTwo from '../elements/BrandTwo';
@@ -30,28 +30,28 @@ const SlideList = [
   },
 ];
 
-const list = [
-  {
-    image: 'image-1',
-    category: '',
-    title: 'Getting tickets to the big show',
-  },
-  {
-    image: 'image-2',
-    category: '',
-    title: 'Getting tickets to the big show',
-  },
-  {
-    image: 'image-3',
-    category: '',
-    title: 'Getting tickets to the big show',
-  },
-  {
-    image: 'image-4',
-    category: '',
-    title: 'Getting tickets to the big show',
-  },
-];
+// const list = [
+//   {
+//     image: 'image-1',
+//     category: '',
+//     title: 'Getting tickets to the big show',
+//   },
+//   {
+//     image: 'image-2',
+//     category: '',
+//     title: 'Getting tickets to the big show',
+//   },
+//   {
+//     image: 'image-3',
+//     category: '',
+//     title: 'Getting tickets to the big show',
+//   },
+//   {
+//     image: 'image-4',
+//     category: '',
+//     title: 'Getting tickets to the big show',
+//   },
+// ];
 
 class CreativeLanding extends Component {
   constructor(props) {
@@ -174,7 +174,7 @@ class CreativeLanding extends Component {
                         Over the past 5 years, I've built web apps and interactive experiences that enable businesses to achieve their objectives and deliver great experiences to end users.
                       </p>
                       <p className='description'>
-                        I help businesses realise their goals by bringing their ideas to life while delivering the best experience end users.
+                        I help you understanding how users comprehend your web presence and I design beautiful interfaces with these insights in mind, bringing them to life by building performant, maintainable and accessible websites.
                       </p>
                     </div>
                     <div className='row mt--30'>

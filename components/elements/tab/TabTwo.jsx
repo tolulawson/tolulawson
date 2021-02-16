@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
 /* eslint-disable linebreak-style */
 import React, { Component } from 'react';
@@ -7,8 +8,8 @@ import {
 
 class TabsTwo extends Component {
   render() {
-    const tab1 = 'Expertise';
-    const tab2 = 'Technologies';
+    // const tab1 = 'Skills';
+    const tab2 = 'Technologies I Use';
     const { tabStyle } = this.props;
     return (
       <div>
@@ -19,65 +20,28 @@ class TabsTwo extends Component {
               <div className='col-lg-12'>
                 <Tabs>
                   <TabList className={`${tabStyle}`}>
-                    <Tab>{tab1}</Tab>
+                    {/* <Tab>{tab1}</Tab> */}
                     <Tab>{tab2}</Tab>
                   </TabList>
 
-                  <TabPanel>
-                    <div className='single-tab-content'>
+                  {/* <TabPanel>
+                    <div className='single-tab-content expertise'>
                       <ul>
-                        <li>
-                          <a href='/service'>
-                            User experience design
-                          </a>
-                          Delight the user and make it work.
-                        </li>
-                        <li>
-                          <a href='/service'>
-                            Strategy
-                            <span> - Development</span>
-                          </a>
-                          Websites, web experiences, ...
-                        </li>
-                        <li>
-                          <a href='/service'>
-                            Interaction design
-                            <span> - Animation</span>
-                          </a>
-                          I like to move it move it.
+                        <li className=''>
+                          My skills span from understanding how users comprehend your web presence to designing beautiful interfaces with these insights in mind and bringing them to life by building performant, maintainable and accessible websites.
                         </li>
                       </ul>
                     </div>
-                  </TabPanel>
+                  </TabPanel> */}
 
                   <TabPanel>
-                    <div className='single-tab-content'>
-                      <ul>
-                        <li>
-                          <a href='/service'>
-                            Awwwards.com
-                            <span>- Winner</span>
-                          </a>
-                          {' '}
-                          2019 - 2020
-                        </li>
-                        <li>
-                          <a href='/service'>
-                            CSS Design Awards
-                            <span>- Winner</span>
-                          </a>
-                          {' '}
-                          2017 - 2018
-                        </li>
-                        <li>
-                          <a href='/service'>
-                            Design nominees
-                            <span>- site of the day</span>
-                          </a>
-                          {' '}
-                          2013- 2014
-                        </li>
-                      </ul>
+                    <div className='single-tab-content tech'>
+                      <img src='tech/react.svg' alt='ReactJS logo' />
+                      <img src='tech/redux.svg' alt='Redux logo' />
+                      <img src='tech/node.svg' alt='NodeJS logo' />
+                      <img src='tech/mongodb.svg' alt='MongoDB logo' />
+                      <img src='tech/nextjs.svg' alt='NextJS logo' />
+                      <img src='tech/firebase.svg' alt='Firebase logo' />
                     </div>
                   </TabPanel>
 
