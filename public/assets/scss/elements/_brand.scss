@@ -61,6 +61,9 @@ ul {
 
 ul{
     &.brand-style-2 {
+        &.tech {
+            justify-content: flex-start;
+        }
         list-style: none;
         margin: 0;
         padding: 0;

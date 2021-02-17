@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import {
   Tab, Tabs, TabList, TabPanel,
 } from 'react-tabs';
+import BrandThree from '../BrandThree';
 
 class TabsTwo extends Component {
   render() {
@@ -36,13 +37,14 @@ class TabsTwo extends Component {
 
                   <TabPanel>
                     <div className='single-tab-content tech'>
-                      <img src='tech/react.svg' alt='ReactJS logo' />
+                      {/* <img src='tech/react.svg' alt='ReactJS logo' />
                       <img src='tech/redux.svg' alt='Redux logo' />
                       <img src='tech/node.svg' alt='NodeJS logo' />
                       <img src='tech/mongodb.svg' alt='MongoDB logo' />
                       <img src='tech/nextjs.svg' alt='NextJS logo' />
-                      <img src='tech/firebase.svg' alt='Firebase logo' />
+                      <img src='tech/firebase.svg' alt='Firebase logo' /> */}
                     </div>
+                    <BrandThree />
                   </TabPanel>
 
                 </Tabs>
