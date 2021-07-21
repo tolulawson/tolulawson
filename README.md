@@ -7,11 +7,11 @@ I write about Next.js at my [blog](https://tolulawson.com/blog). Feel free to em
 📄  You can check my [Resume](https://read.cv/tolulawson) for more details about work experience.
 
 ### 📫 &nbsp; Let's Connect
-<a href="https://tolulawson.com" target="_blank"><img align="left" alt="tolulawson.com" width="22px" src="https://s2.svgbox.net/hero-solid.svg?ic=cursor-click" /></a>
-<a href="mailto:tolu@tolulawson.com" target="_blank"><img align="left" alt="tolulawson.com" width="22px" src="https://s2.svgbox.net/materialui.svg?ic=email" /></a>
-<a href="https://linkedin.com/in/tolulawson" target="_blank"><img align="left" alt="Tolu Lawson | LinkedIn" width="22px" src="https://s2.svgbox.net/social.svg?ic=linkedin" />
-<a href="https://behance.net/tolulawson" target="_blank"><img align="left" alt="Tolu Lawson | Behance" width="22px" src="https://s2.svgbox.net/social.svg?ic=behance" />
-<a href="https://dribbble.com/tolulawson" target="_blank"><img align="left" alt="Tolu Lawson | Dribbble" width="22px" src="https://s2.svgbox.net/social.svg?ic=dribbble" /></a>
+<a href="https://tolulawson.com" target="_blank"><img align="left" alt="tolulawson.com" width="22px" src="https://s2.svgbox.net/hero-solid.svg?ic=cursor-click&color=0455ce"/></a>
+<a href="mailto:tolu@tolulawson.com" target="_blank"><img align="left" alt="tolulawson.com" width="22px" src="https://s2.svgbox.net/materialui.svg?ic=email&color=0455ce" /></a>
+<a href="https://linkedin.com/in/tolulawson" target="_blank"><img align="left" alt="Tolu Lawson | LinkedIn" width="22px" src="https://s2.svgbox.net/social.svg?ic=linkedin&color=0455ce" />
+<a href="https://behance.net/tolulawson" target="_blank"><img align="left" alt="Tolu Lawson | Behance" width="22px" src="https://s2.svgbox.net/social.svg?ic=behance&color=0455ce" />
+<a href="https://dribbble.com/tolulawson" target="_blank"><img align="left" alt="Tolu Lawson | Dribbble" width="22px" src="https://s2.svgbox.net/social.svg?ic=dribbble&color=0455ce" /></a>
 <br />
 <br />
 
