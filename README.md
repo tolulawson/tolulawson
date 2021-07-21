@@ -1,30 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hello, world
 
-## Getting Started
+I'm Tolu Lawson, a full-stack Javascript developer in Lagos, Nigeria. I love creating digital products and web experiences, and the backend services that power them.
 
-First, run the development server:
+I write about Next.js at my [blog](https://tolulawson.com/blog). Feel free to email me at tolu@tolulawson.com.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+📄  You can check my [Resume](https://read.cv/tolulawson) for more details about work experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📫 &nbsp; Let's Connect
+<a href="https://tolulawson.com" target="_blank"><img align="left" alt="tolulawson.com" width="22px" src="https://s2.svgbox.net/hero-solid.svg?ic=cursor-click" /></a>
+<a href="mailto:tolu@tolulawson.com" target="_blank"><img align="left" alt="tolulawson.com" width="22px" src="https://s2.svgbox.net/materialui.svg?ic=email" /></a>
+<a href="https://linkedin.com/in/tolulawson" target="_blank"><img align="left" alt="Tolu Lawson | LinkedIn" width="22px" src="https://s2.svgbox.net/social.svg?ic=linkedin" />
+<a href="https://behance.net/tolulawson" target="_blank"><img align="left" alt="Tolu Lawson | Behance" width="22px" src="https://s2.svgbox.net/social.svg?ic=behance" />
+<a href="https://dribbble.com/tolulawson" target="_blank"><img align="left" alt="Tolu Lawson | Dribbble" width="22px" src="https://s2.svgbox.net/social.svg?ic=dribbble" /></a>
+<br />
+<br />
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### 🛠 &nbsp;My Tech Stack
 
-## Learn More
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)&nbsp;
+![JavaScript](https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;<br/>
+![JavaScript](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)&nbsp;
+![JavaScript](https://img.shields.io/badge/nextjs-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)&nbsp;<br/>
+![JavaScript](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)&nbsp;<br/>
+![JavaScript](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;<br/>
+![JavaScript](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)&nbsp;
+![JavaScript](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white)&nbsp;
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
