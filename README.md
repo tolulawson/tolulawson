@@ -5,7 +5,8 @@ I'm Tolu Lawson, a full-stack Javascript developer in Lagos, Nigeria. I love cre
 I write about Next.js at my [blog](https://tolulawson.com/blog). Feel free to email me at tolu@tolulawson.com.
 
 📄  You can check my [Resume](https://read.cv/tolulawson) for more details about work experience.
-
+<br />
+<br />
 ### 📫 &nbsp; Let's Connect
 <a href="https://tolulawson.com" target="_blank"><img align="left" alt="tolulawson.com" width="22px" src="https://s2.svgbox.net/hero-solid.svg?ic=cursor-click&color=0455ce"/></a>
 <a href="mailto:tolu@tolulawson.com" target="_blank"><img align="left" alt="tolulawson.com" width="22px" src="https://s2.svgbox.net/materialui.svg?ic=email&color=0455ce" /></a>
